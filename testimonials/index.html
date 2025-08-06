@@ -1,393 +1,633 @@
 <!DOCTYPE html>
 <html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../favicon.png" type="image/png" />
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="../favicon.png" type="image/png">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+    />
+    <link rel="stylesheet" href="../slick/slick.css" />
+    <link rel="stylesheet" href="../slick/slick-theme.css" />
 
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="../assets/css/style.css">
-  <link rel="stylesheet" href="../assets/css/responsive.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="../slick/slick.css">
-  <link rel="stylesheet" href="../slick/slick-theme.css">
+    <!-- SEO Meta Tags -->
+    <title>
+      Client Testimonials | AMZ Virtual Assistant | eCommerce Success Stories
+    </title>
+    <meta
+      name="description"
+      content="Read real client testimonials and success stories for AMZ Virtual Assistant. Discover how our eCommerce automation, Amazon, Shopify, and Walmart optimization services deliver results and boost sales."
+    />
+    <meta
+      name="keywords"
+      content="AMZ Virtual Assistant Reviews, Client Testimonials, eCommerce Success Stories, Amazon Automation Feedback, Shopify Optimization Results, Walmart Automation, Customer Experiences, Best eCommerce Agency, Store Optimization Testimonials, Real Seller Reviews"
+    />
+    <link
+      rel="canonical"
+      href="https://amzvirtualassistant.com/testimonials/index.html"
+    />
+    <meta name="robots" content="index, follow" />
 
-  <!-- SEO Meta Tags -->
-  <title>Client Testimonials | AMZ Virtual Assistant | eCommerce Success Stories</title>
-  <meta name="description" content="Read real client testimonials and success stories for AMZ Virtual Assistant. Discover how our eCommerce automation, Amazon, Shopify, and Walmart optimization services deliver results and boost sales.">
-  <meta name="keywords" content="AMZ Virtual Assistant Reviews, Client Testimonials, eCommerce Success Stories, Amazon Automation Feedback, Shopify Optimization Results, Walmart Automation, Customer Experiences, Best eCommerce Agency, Store Optimization Testimonials, Real Seller Reviews">
-  <link rel="canonical" href="https://amzvirtualassistant.com/testimonials/index.html" />
-  <meta name="robots" content="index, follow">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Client Testimonials | AMZ Virtual Assistant | eCommerce Success Stories"
+    />
+    <meta
+      property="og:description"
+      content="Read real client testimonials and success stories for AMZ Virtual Assistant. Discover how our eCommerce automation, Amazon, Shopify, and Walmart optimization services deliver results and boost sales."
+    />
+    <meta
+      property="og:url"
+      content="https://amzvirtualassistant.com/testimonials/index.html"
+    />
+    <meta
+      property="og:image"
+      content="https://amzvirtualassistant.com/assets/images/amazon-automation.png"
+    />
+    <meta property="og:site_name" content="AMZ Virtual Assistant" />
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Client Testimonials | AMZ Virtual Assistant | eCommerce Success Stories">
-  <meta property="og:description" content="Read real client testimonials and success stories for AMZ Virtual Assistant. Discover how our eCommerce automation, Amazon, Shopify, and Walmart optimization services deliver results and boost sales.">
-  <meta property="og:url" content="https://amzvirtualassistant.com/testimonials/index.html">
-  <meta property="og:image" content="https://amzvirtualassistant.com/assets/images/amazon-automation.png">
-  <meta property="og:site_name" content="AMZ Virtual Assistant">
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Client Testimonials | AMZ Virtual Assistant | eCommerce Success Stories"
+    />
+    <meta
+      name="twitter:description"
+      content="Read real client testimonials and success stories for AMZ Virtual Assistant. Discover how our eCommerce automation, Amazon, Shopify, and Walmart optimization services deliver results and boost sales."
+    />
+    <meta
+      name="twitter:image"
+      content="https://amzvirtualassistant.com/assets/images/amazon-automation.png"
+    />
+    <meta name="twitter:site" content="@amzvirtualassistant" />
+    <meta name="twitter:creator" content="@amzvirtualassistant" />
 
-  <!-- Twitter Card Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Client Testimonials | AMZ Virtual Assistant | eCommerce Success Stories">
-  <meta name="twitter:description" content="Read real client testimonials and success stories for AMZ Virtual Assistant. Discover how our eCommerce automation, Amazon, Shopify, and Walmart optimization services deliver results and boost sales.">
-  <meta name="twitter:image" content="https://amzvirtualassistant.com/assets/images/amazon-automation.png">
-  <meta name="twitter:site" content="@amzvirtualassistant">
-  <meta name="twitter:creator" content="@amzvirtualassistant">
+    <!-- Google Verification (optional, keep if needed) -->
+    <meta
+      name="google-site-verification"
+      content="lUzDIXgChKDykK-ptl1eOw5YLYNZHjuRj1tmJ--fgN0"
+    />
+  </head>
 
-  <!-- Google Verification (optional, keep if needed) -->
-  <meta name="google-site-verification" content="lUzDIXgChKDykK-ptl1eOw5YLYNZHjuRj1tmJ--fgN0" />
-</head>
-
-<body>
-
-<header class="header-main for-desktop">
-  <div class="container">
-    <!-- Top Bar -->
-    <div class="top-menu pb-2">
-      <div class="row">
-        <div class="col-md-3">
-          <h5><span>.</span>Generate Passive Income on the Side.</h5>
-        </div>
-        <div class="col-md-6">
-          <div class="menu d-flex justify-content-center">
-            <ul class="nav">
-              <li class="nav-item">
-                <a href="../about-us/index.html" class="nav-link">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a href="../testimonials/index.html" class="nav-link">Testimonials</a>
-              </li>
-              <li class="nav-item">
-                <a href="../contact-us/contact-us.html" class="nav-link">Contact Us</a>
-              </li>
-            </ul>
+  <body>
+    <header class="header-main for-desktop">
+      <div class="container">
+        <!-- Top Bar -->
+        <div class="top-menu pb-2">
+          <div class="row">
+            <div class="col-md-3">
+              <h5><span>.</span>AMZ Virtual Assistant eCommerce Business</h5>
+            </div>
+            <div class="col-md-6">
+              <div class="menu d-flex justify-content-center">
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a href="../about-us/index.html" class="nav-link"
+                      >About Us</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="../testimonials/index.html" class="nav-link"
+                      >Testimonials</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="../contact-us/contact-us.html" class="nav-link"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="group-link gap-3 d-flex align-items-center">
+                <button
+                  type="button"
+                  class="btn global-btn"
+                  onclick="typeof Tawk_API !== 'undefined' && Tawk_API.toggle()"
+                >
+                  Live Chat
+                </button>
+                <a href="tel:(737) 363-2955">(737) 363-2955</a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="group-link gap-3 d-flex align-items-center">
-            <button
-              type="button"
-              class="btn global-btn"
-              onclick="typeof Tawk_API !== 'undefined' && Tawk_API.toggle()"
-            >
-              Live Chat
-            </button>
-            <a href="tel:(737) 363-2955">(737) 363-2955</a>
+
+        <!-- Main Navigation -->
+        <div class="row align-items-center mt-2">
+          <div class="col-md-2">
+            <div class="logo">
+              <a href="../index.html">
+                <img
+                  src="../assets/images/logooo-header.png"
+                  class="without-stick"
+                  alt="logo"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </a>
+              <a href="../index.html">
+                <img
+                  src="../assets/images/logooo-header.png"
+                  class="with-stick"
+                  alt="logo"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </a>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Main Navigation -->
-    <div class="row align-items-center mt-2">
-      <div class="col-md-2">
-        <div class="logo">
-          <a href="../index.html">
-            <img src="../assets/images/logooo-header.png" class="without-stick" alt="logo" loading="lazy" decoding="async" />
-          </a>
-          <a href="../index.html">
-            <img src="../assets/images/logooo-header.png" class="with-stick" alt="logo" loading="lazy" decoding="async" />
-          </a>
-        </div>
-      </div>
-      <div class="col-md-8">
-        <div class="menu d-flex justify-content-center">
-          <ul class="nav">
-            <li class="nav-item">
-              <a href="../index.html" class="nav-link">Home</a>
-            </li>
-
-            <!-- Automation Dropdown -->
-            <li class="nav-item">
-              <a href="javascript:;" class="nav-link menu-arrow">eCommerce Automation</a>
-              <div class="dropdown-content">
-                <a href="../amazon-automation/index.html">Amazon Automation</a>
-                <a href="../walmart-automation/index.html">Walmart Automation</a>
-                <a href="../shopify-automation/index.html">Shopify Automation</a>
-                <a href="../ebay-automation/index.html">eBay Automation</a>
-                <a href="../etsy-automation/index.html">Etsy Automation</a>
-                <a href="../tiktok-automation/index.html">TikTok Automation</a>
-              </div>
-            </li>
-
-            <!-- Marketing Dropdown -->
-            <li class="nav-item">
-              <a href="javascript:;" class="nav-link menu-arrow">Marketing Services</a>
-              <div class="dropdown-content">
-                <a href="../keyword-research/index.html">Keyword Research</a>
-                <a href="../product-hunting/index.html">Product Hunting</a>
-                <a href="../ppc-management/index.html">PPC Management</a>
-              </div>
-            </li>
-
-            <!-- Other Services -->
-            <li class="nav-item">
-              <a href="javascript:;" class="nav-link menu-arrow">Other Services</a>
-              <div class="dropdown-content">
-                <a href="../virtual-assistant/index.html">Virtual Assistant</a>
-                <a href="../stores-optimization/index.html">Store Optimization</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-2">
-        <a href="../get-a-quote/index.html" class="get-a-quote">
-          <button type="button" class="btn global-btn">Get a Proposal</button>
-        </a>
-      </div>
-    </div>
-  </div>
-</header>
-
-<header class="header-main for-mobile d-none">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="main_mobile-navbar">
-          <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <a class="navbar-brand" href="../index.html">
-              <img src="../assets/images/logooo-header.png" alt="Logo" loading="lazy" decoding="async" />
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <i class="fa-solid fa-bars"></i>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <!-- Basic Pages -->
+          <div class="col-md-8">
+            <div class="menu d-flex justify-content-center">
+              <ul class="nav">
                 <li class="nav-item">
-                  <a class="nav-link active" href="../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../about-us/index.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../testimonials/index.html">Testimonials</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../contact-us/contact-us.html">Contact Us</a>
+                  <a href="../index.html" class="nav-link">Home</a>
                 </li>
 
-                <!-- eCommerce Automation Dropdown -->
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    eCommerce Automation
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../amazon-automation/index.html">Amazon Automation</a></li>
-                    <li><a class="dropdown-item" href="../walmart-automation/index.html">Walmart Automation</a></li>
-                    <li><a class="dropdown-item" href="../shopify-automation/index.html">Shopify Automation</a></li>
-                    <li><a class="dropdown-item" href="../ebay-automation/index.html">eBay Automation</a></li>
-                    <li><a class="dropdown-item" href="../etsy-automation/index.html">Etsy Automation</a></li>
-                    <li><a class="dropdown-item" href="../tiktok-automation/index.html">TikTok Automation</a></li>
-                  </ul>
-                </li>
-
-                <!-- Marketing Services Dropdown -->
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Marketing Services
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../keyword-research/index.html">Keyword Research</a></li>
-                    <li><a class="dropdown-item" href="../product-hunting/index.html">Product Hunting</a></li>
-                    <li><a class="dropdown-item" href="../ppc-management/index.html">PPC Management</a></li>
-                  </ul>
-                </li>
-
-                <!-- Other Services Dropdown -->
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Other Services
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../virtual-assistant/index.html">Virtual Assistant</a></li>
-                    <li><a class="dropdown-item" href="../stores-optimization/index.html">Store Optimization</a></li>
-                  </ul>
-                </li>
-
-                <!-- CTA -->
+                <!-- Automation Dropdown -->
                 <li class="nav-item">
-                  <a class="nav-link" href="../get-a-quote/index.html">
-                    <button class="btn global-btn w-100 mt-2">Get a Proposal</button>
-                  </a>
+                  <a href="javascript:;" class="nav-link menu-arrow"
+                    >eCommerce Automation</a
+                  >
+                  <div class="dropdown-content">
+                    <a href="../amazon-automation/index.html"
+                      >Amazon Automation</a
+                    >
+                    <a href="../walmart-automation/index.html"
+                      >Walmart Automation</a
+                    >
+                    <a href="../shopify-automation/index.html"
+                      >Shopify Automation</a
+                    >
+                    <a href="../ebay-automation/index.html">eBay Automation</a>
+                    <a href="../etsy-automation/index.html">Etsy Automation</a>
+                    <a href="../tiktok-automation/index.html"
+                      >TikTok Automation</a
+                    >
+                  </div>
+                </li>
+
+                <!-- Marketing Dropdown -->
+                <li class="nav-item">
+                  <a href="javascript:;" class="nav-link menu-arrow"
+                    >Marketing Services</a
+                  >
+                  <div class="dropdown-content">
+                    <a href="../keyword-research/index.html"
+                      >Keyword Research</a
+                    >
+                    <a href="../product-hunting/index.html">Product Hunting</a>
+                    <a href="../ppc-management/index.html">PPC Management</a>
+                  </div>
+                </li>
+
+                <!-- Other Services -->
+                <li class="nav-item">
+                  <a href="javascript:;" class="nav-link menu-arrow"
+                    >Other Services</a
+                  >
+                  <div class="dropdown-content">
+                    <a href="../virtual-assistant/index.html"
+                      >Virtual Assistant</a
+                    >
+                    <a href="../stores-optimization/index.html"
+                      >Store Optimization</a
+                    >
+                  </div>
                 </li>
               </ul>
             </div>
-          </nav>
+          </div>
+          <div class="col-md-2">
+            <a href="../get-a-quote/index.html" class="get-a-quote">
+              <button type="button" class="btn global-btn">
+                Get a Proposal
+              </button>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</header>
+    </header>
 
-  <section class="home-bannerwrp inner-service-banner testimonials-banner">
-    <span class="ovrwrp"></span>
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-6">
-          <div class="txtwrp text-start">
-            <h1>TESTIMONIALS</h1>
-            <p>A diverse service profile for an equally diverse clientele – Read along what our clients
-              believe made them like us.</p>
+    <header class="header-main for-mobile d-none">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="main_mobile-navbar">
+              <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <a class="navbar-brand" href="../index.html">
+                  <img
+                    src="../assets/images/logooo-header.png"
+                    alt="Logo"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!-- Basic Pages -->
+                    <li class="nav-item">
+                      <a class="nav-link active" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../about-us/index.html"
+                        >About Us</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../testimonials/index.html"
+                        >Testimonials</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../contact-us/contact-us.html"
+                        >Contact Us</a
+                      >
+                    </li>
+
+                    <!-- eCommerce Automation Dropdown -->
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        eCommerce Automation
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="../amazon-automation/index.html"
+                            >Amazon Automation</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="../walmart-automation/index.html"
+                            >Walmart Automation</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="../shopify-automation/index.html"
+                            >Shopify Automation</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="../ebay-automation/index.html"
+                            >eBay Automation</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="../etsy-automation/index.html"
+                            >Etsy Automation</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="../tiktok-automation/index.html"
+                            >TikTok Automation</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+
+                    <!-- Marketing Services Dropdown -->
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Marketing Services
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="../keyword-research/index.html"
+                            >Keyword Research</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="../product-hunting/index.html"
+                            >Product Hunting</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="../ppc-management/index.html"
+                            >PPC Management</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+
+                    <!-- Other Services Dropdown -->
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Other Services
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="../virtual-assistant/index.html"
+                            >Virtual Assistant</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="../stores-optimization/index.html"
+                            >Store Optimization</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+
+                    <!-- CTA -->
+                    <li class="nav-item">
+                      <a class="nav-link" href="../get-a-quote/index.html">
+                        <button class="btn global-btn w-100 mt-2">
+                          Get a Proposal
+                        </button>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
           </div>
-          <!-- <div class="txtwrp text-start">
+        </div>
+      </div>
+    </header>
+
+    <section class="home-bannerwrp inner-service-banner testimonials-banner">
+      <span class="ovrwrp"></span>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="txtwrp text-start">
+              <h1>TESTIMONIALS</h1>
+              <p>
+                A diverse service profile for an equally diverse clientele –
+                Read along what our clients believe made them like us.
+              </p>
+            </div>
+            <!-- <div class="txtwrp text-start">
                         <img class="lazy loaded" src="assets/images/gpartner.png" data-src="assets/images/gpartner.png"
                             data-was-processed="true">
                     </div> -->
-          <div class="group-link gap-3 d-flex align-items-center mt-3 position-relative">
-            <a href="../get-a-quote/index.html" class="get-a-quote"><button type="button" class="btn global-btn">Lets
-                Get Started</button></a>
-            <a href="tel:(737) 363-2955">(737) 363-2955</a>
+            <div
+              class="group-link gap-3 d-flex align-items-center mt-3 position-relative"
+            >
+              <a href="../get-a-quote/index.html" class="get-a-quote"
+                ><button type="button" class="btn global-btn">
+                  Lets Get Started
+                </button></a
+              >
+              <a href="tel:(737) 363-2955">(737) 363-2955</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- <img class="main-bnr-hm lazy loaded" title="AmzFounders" src="assets/images/book-writers.webp"
+      <!-- <img class="main-bnr-hm lazy loaded" title="AmzFounders" src="assets/images/book-writers.webp"
             data-src="assets/images/book-writers.webp" alt="AmzFounders" data-was-processed="true"> -->
-  </section>
+    </section>
 
-  <section class="testi" style="background: #f0f0f0;">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="text-center" style="font-size: 38px;
-    font-weight: 600;
-    color: #223235;
-    margin-bottom: 40px;">Our Testimonials</h2>
+    <section class="testi" style="background: #f0f0f0">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2
+              class="text-center"
+              style="
+                font-size: 38px;
+                font-weight: 600;
+                color: #223235;
+                margin-bottom: 40px;
+              "
+            >
+              Our Testimonials
+            </h2>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="main-testi-slider justify-content-center">
-            <ul class="testi-slider p-0">
-              <li>
-                <div class="testimonial-box" data-bs-toggle="modal" data-bs-target="#videomodal">
-                  <div class="inner-testimonial-box">
-                    <div>
-                      <h6 class="fa-60 font-weight-bold">Jacob Evans</h6>
-                    </div>
-                    <img class="right-image" style="opacity: 1;" src="../assets/images/testi-2.png" alt="assets/images/testi-2.png" loading="lazy" decoding="async" />
-                    <!-- <button class="btn-testimonial">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="main-testi-slider justify-content-center">
+              <ul class="testi-slider p-0">
+                <li>
+                  <div
+                    class="testimonial-box"
+                    data-bs-toggle="modal"
+                    data-bs-target="#videomodal"
+                  >
+                    <div class="inner-testimonial-box">
+                      <div>
+                        <h6 class="fa-60 font-weight-bold">Jacob Evans</h6>
+                      </div>
+                      <img
+                        class="right-image"
+                        style="opacity: 1"
+                        src="../assets/images/testi-2.png"
+                        alt="assets/images/testi-2.png"
+                        loading="lazy"
+                        decoding="async"
+                      />
+                      <!-- <button class="btn-testimonial">
                         <i class="fas fa-play"></i>
                     </button> -->
-                  </div>
-                  
-                </div>
-              </li>
-              <li>
-                <div class="testimonial-box" data-bs-toggle="modal" data-bs-target="#videomodal-2">
-                  <div class="inner-testimonial-box">
-                    <div>
-                      <h6 class="fa-60 font-weight-bold">Rebecca Duncan</h6>
                     </div>
-                    <img class="right-image" style="opacity: 1;" src="../assets/images/testi-1.png" alt="assets/images/testi-1.png" loading="lazy" decoding="async" />
-                    <!-- <button class="btn-testimonial">
+                  </div>
+                </li>
+                <li>
+                  <div
+                    class="testimonial-box"
+                    data-bs-toggle="modal"
+                    data-bs-target="#videomodal-2"
+                  >
+                    <div class="inner-testimonial-box">
+                      <div>
+                        <h6 class="fa-60 font-weight-bold">Rebecca Duncan</h6>
+                      </div>
+                      <img
+                        class="right-image"
+                        style="opacity: 1"
+                        src="../assets/images/testi-1.png"
+                        alt="assets/images/testi-1.png"
+                        loading="lazy"
+                        decoding="async"
+                      />
+                      <!-- <button class="btn-testimonial">
                       <i class="fas fa-play"></i>
                     </button> -->
+                    </div>
                   </div>
-                </div>
-              </li>
-            </ul>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <div class="modal main-modal video-modal" id="videomodal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-body">
-          <!-- <div class="modal-video">
+    </section>
+    <div class="modal main-modal video-modal" id="videomodal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <!-- <div class="modal-video">
             <video controls>
               <source src="../assets/images/video-1.mp4" type="video/mp4">
               <source src="#" type="video/ogg">
             </video>
           </div> -->
-          <div class="testi-main">
-            <p>The Keyword Research services provided by AMZ Virtual Assistant have been crucial in optimizing 
-                my website’s SEO. Their detailed analysis helped me target the right keywords, greatly 
-                improving my online visibility.</p>
-            <hr>
-            <div class="test-meta">
+            <div class="testi-main">
+              <p>
+                The Keyword Research services provided by AMZ Virtual Assistant
+                have been crucial in optimizing my website’s SEO. Their detailed
+                analysis helped me target the right keywords, greatly improving
+                my online visibility.
+              </p>
+              <hr />
+              <div class="test-meta">
                 <h5>Jacob Evans</h5>
                 <span>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
                 </span>
-            </div>
-            <div class="imawrp">
+              </div>
+              <div class="imawrp">
                 <span>JE</span>
                 <!-- <img src="./assets/images/jacob.png" alt="assets/images/jacob.png" loading="lazy" decoding="async" /> -->
+              </div>
             </div>
-        </div>
-        <button type="button" class="btn-close testi-closer" data-bs-dismiss="modal">&times;</button>
+            <button
+              type="button"
+              class="btn-close testi-closer"
+              data-bs-dismiss="modal"
+            >
+              &times;
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="modal main-modal video-modal" id="videomodal-2">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-body">
-          <!-- <div class="modal-video">
+    <div class="modal main-modal video-modal" id="videomodal-2">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <!-- <div class="modal-video">
             <video controls>
               <source src="../assets/images/video-2.mp4" type="video/mp4">
               <source src="#" type="video/ogg">
             </video>
           </div>
           <button type="button" class="btn-close" data-bs-dismiss="modal">&times;</button> -->
-          <div class="testi-main">
-            <p>Working with AMZ Virtual Assistant for Amazon Automation has given my business a new lease of life. 
-                The team's proficiency in the management of all components of my Amazon store has brought 
-                my sales and operational efficiency to a totally new level. I am over the moon with the 
-                results!</p>
-            <hr>
-            <div class="test-meta">
+            <div class="testi-main">
+              <p>
+                Working with AMZ Virtual Assistant for Amazon Automation has
+                given my business a new lease of life. The team's proficiency in
+                the management of all components of my Amazon store has brought
+                my sales and operational efficiency to a totally new level. I am
+                over the moon with the results!
+              </p>
+              <hr />
+              <div class="test-meta">
                 <h5>Rebecca Duncan</h5>
                 <span>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
                 </span>
-            </div>
-            <div class="imawrp">
+              </div>
+              <div class="imawrp">
                 <span>RD</span>
                 <!-- <img src="./assets/images/rebecca.png" alt="assets/images/rebecca.png" loading="lazy" decoding="async" /> -->
-
+              </div>
             </div>
-        </div>
-        <button type="button" class="btn-close testi-closer" data-bs-dismiss="modal">&times;</button>
+            <button
+              type="button"
+              class="btn-close testi-closer"
+              data-bs-dismiss="modal"
+            >
+              &times;
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <section class="testimonial-sec">
-    <div class="container">
-      <div class="row align-items-center review-slider">
-        <!-- <div class="col-md-6">
+    <section class="testimonial-sec">
+      <div class="container">
+        <div class="row align-items-center review-slider">
+          <!-- <div class="col-md-6">
                     <video controls class="w-100">
                         <source src="assets/images/video-1.mp4" type="video/mp4">
                         <source src="" type="video/ogg">
@@ -399,129 +639,194 @@
                         <source src="" type="video/ogg">
                     </video>
                 </div> -->
-        <div class="col-md-6">
-          <div class="testi-main">
-            <p>Thanks to AMZ Virtual Assistant Amazon ppc services, our leather jacket sales were significantly
-              boosted. Their expert ad management drove more traffic and conversions. We're impressed with
-              the results and their professional approach.</p>
-            <hr>
-            <div class="test-meta">
-              <h5>Edan Karl</h5>
-              <img src="../assets/images/trust.png" alt="assets/images/trust.png" loading="lazy" decoding="async" />
-            </div>
-            <div class="imawrp">
-              <span>EK</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="testi-main">
-            <p>We are extremely satisfied with the way their solutions have transformed our shop. We used
-              their automation services for a Shopify store. If you wanna grow your business, leverage
-              their services and concentrate on advancing your business.</p>
-            <hr>
-            <div class="test-meta">
-              <h5>Richard Adam</h5>
-              <img src="../assets/images/trust.png" alt="assets/images/trust.png" loading="lazy" decoding="async" />
-            </div>
-            <div class="imawrp">
-              <span>RA</span>
+          <div class="col-md-6">
+            <div class="testi-main">
+              <p>
+                Thanks to AMZ Virtual Assistant Amazon ppc services, our leather
+                jacket sales were significantly boosted. Their expert ad
+                management drove more traffic and conversions. We're impressed
+                with the results and their professional approach.
+              </p>
+              <hr />
+              <div class="test-meta">
+                <h5>Edan Karl</h5>
+                <img
+                  src="../assets/images/trust.png"
+                  alt="assets/images/trust.png"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="imawrp">
+                <span>EK</span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="testi-main">
-            <p>Keeping our processes in order and preventing errors has been a major benefit of AMZ Virtual Assistant
-              Walmart automation. They deliver high-quality services. Keep it Up!</p>
-            <hr>
-            <div class="test-meta">
-              <h5>Mitchell William</h5>
-              <img src="../assets/images/trust.png" alt="assets/images/trust.png" loading="lazy" decoding="async" />
-            </div>
-            <div class="imawrp">
-              <span>MW</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="testi-main">
-            <p>There's an amazing service of AMZ Virtual Assistant, the Walmart automation which helped us a lot in
-              avoiding errors and boosting our processing. It provides efficient solutions.</p>
-            <hr>
-            <div class="test-meta">
-              <h5>Betty Matthew</h5>
-              <img src="../assets/images/trust.png" alt="assets/images/trust.png" loading="lazy" decoding="async" />
-            </div>
-            <div class="imawrp">
-              <span>BM</span>
+          <div class="col-md-6">
+            <div class="testi-main">
+              <p>
+                We are extremely satisfied with the way their solutions have
+                transformed our shop. We used their automation services for a
+                Shopify store. If you wanna grow your business, leverage their
+                services and concentrate on advancing your business.
+              </p>
+              <hr />
+              <div class="test-meta">
+                <h5>Richard Adam</h5>
+                <img
+                  src="../assets/images/trust.png"
+                  alt="assets/images/trust.png"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="imawrp">
+                <span>RA</span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="testi-main">
-            <p>Before, it was difficult to handle all the tasks on time but now the VA has made is easy. It
-              makes me realize the importance of technology's involvement in our daily lives.</p>
-            <hr>
-            <div class="test-meta">
-              <h5>Semaj Young</h5>
-              <img src="../assets/images/trust.png" alt="assets/images/trust.png" loading="lazy" decoding="async" />
-            </div>
-            <div class="imawrp">
-              <span>SY</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="testi-main">
-            <p>Our sales have increased significantly since we began using their Shopify services. Their
-              insights and suggestions, in particular, have captivated clients and increased interaction
-              significantly.</p>
-            <hr>
-            <div class="test-meta">
-              <h5>Elijah Thompson</h5>
-              <img src="../assets/images/trust.png" alt="assets/images/trust.png" loading="lazy" decoding="async" />
-            </div>
-            <div class="imawrp">
-              <span>ET</span>
+          <div class="col-md-6">
+            <div class="testi-main">
+              <p>
+                Keeping our processes in order and preventing errors has been a
+                major benefit of AMZ Virtual Assistant Walmart automation. They
+                deliver high-quality services. Keep it Up!
+              </p>
+              <hr />
+              <div class="test-meta">
+                <h5>Mitchell William</h5>
+                <img
+                  src="../assets/images/trust.png"
+                  alt="assets/images/trust.png"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="imawrp">
+                <span>MW</span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="testi-main">
-            <p>I am impressed as I just purchased an e-commerce website recently from their services. Kept
-              me undated all the time and made it possible even before the expected time. Always available
-              for help and assistance. Highly recommended.</p>
-            <hr>
-            <div class="test-meta">
-              <h5>Davis Miller</h5>
-              <img src="../assets/images/trust.png" alt="assets/images/trust.png" loading="lazy" decoding="async" />
-            </div>
-            <div class="imawrp">
-              <span>DM</span>
+          <div class="col-md-6">
+            <div class="testi-main">
+              <p>
+                There's an amazing service of AMZ Virtual Assistant, the Walmart
+                automation which helped us a lot in avoiding errors and boosting
+                our processing. It provides efficient solutions.
+              </p>
+              <hr />
+              <div class="test-meta">
+                <h5>Betty Matthew</h5>
+                <img
+                  src="../assets/images/trust.png"
+                  alt="assets/images/trust.png"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="imawrp">
+                <span>BM</span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="testi-main">
-            <p>My eCommerce store experienced a sales boost by a significant margin after AMZ Virtual Assistant
-              ecommerce experts tweaked it. From an uplift to the appearance to improving the navigation
-              and integration of added payment gateways, it has not only enhanced my user experience but
-              also allowed me to expand into new marketplaces.</p>
-            <hr>
-            <div class="test-meta">
-              <h5>Tyler Daine</h5>
-              <img src="../assets/images/trust.png" alt="assets/images/trust.png" loading="lazy" decoding="async" />
+          <div class="col-md-6">
+            <div class="testi-main">
+              <p>
+                Before, it was difficult to handle all the tasks on time but now
+                the VA has made is easy. It makes me realize the importance of
+                technology's involvement in our daily lives.
+              </p>
+              <hr />
+              <div class="test-meta">
+                <h5>Semaj Young</h5>
+                <img
+                  src="../assets/images/trust.png"
+                  alt="assets/images/trust.png"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="imawrp">
+                <span>SY</span>
+              </div>
             </div>
-            <div class="imawrp">
-              <span>TD</span>
+          </div>
+          <div class="col-md-6">
+            <div class="testi-main">
+              <p>
+                Our sales have increased significantly since we began using
+                their Shopify services. Their insights and suggestions, in
+                particular, have captivated clients and increased interaction
+                significantly.
+              </p>
+              <hr />
+              <div class="test-meta">
+                <h5>Elijah Thompson</h5>
+                <img
+                  src="../assets/images/trust.png"
+                  alt="assets/images/trust.png"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="imawrp">
+                <span>ET</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="testi-main">
+              <p>
+                I am impressed as I just purchased an e-commerce website
+                recently from their services. Kept me undated all the time and
+                made it possible even before the expected time. Always available
+                for help and assistance. Highly recommended.
+              </p>
+              <hr />
+              <div class="test-meta">
+                <h5>Davis Miller</h5>
+                <img
+                  src="../assets/images/trust.png"
+                  alt="assets/images/trust.png"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="imawrp">
+                <span>DM</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="testi-main">
+              <p>
+                My eCommerce store experienced a sales boost by a significant
+                margin after AMZ Virtual Assistant ecommerce experts tweaked it.
+                From an uplift to the appearance to improving the navigation and
+                integration of added payment gateways, it has not only enhanced
+                my user experience but also allowed me to expand into new
+                marketplaces.
+              </p>
+              <hr />
+              <div class="test-meta">
+                <h5>Tyler Daine</h5>
+                <img
+                  src="../assets/images/trust.png"
+                  alt="assets/images/trust.png"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="imawrp">
+                <span>TD</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
- <section class="main-cta">
+    <section class="main-cta">
       <div class="container">
         <div class="cta-sec">
           <div class="row align-items-center">
@@ -578,7 +883,7 @@
         </div>
       </div>
     </section>
-  <!-- <section class="reasonwrp">
+    <!-- <section class="reasonwrp">
     <div class="container-fluid">
       <div class="">
         <div class="row align-items-center">
@@ -613,150 +918,180 @@
     </div>
   </section> -->
 
-     <section class="why-amazon">
-        <!-- Left Section -->
-        <div class="slider-section-left">
-          <div class="heading">
-            <h2>Why  AMZ Virtual Assistant?</h2>
-          </div>
-          <div class="description">
-            Leverage the power of a winning e-commerce growth strategy with <strong> AMZ Virtual Assistant!</strong>!<br><br>
-            We combine our intelligent strategies with profitability opportunities and new product solutions for brands of all niches. Our operational excellence has equipped us with a creative hands-on approach to help brands reach, expand, and dominate the e-Commerce ecosystem.
-          </div>
-          <button class="services-button">View All Services</button>
+    <section class="why-amazon">
+      <!-- Left Section -->
+      <div class="slider-section-left">
+        <div class="heading">
+          <h2>Why AMZ Virtual Assistant?</h2>
         </div>
-      
-        <!-- Right Section - Slider -->
-        <div class="slider-section-right">
-          <div class="slider-wrapper">
-            <div class="slide">
-              <div class="card">
-                <div class="icon">🏆</div>
-                <h3>Brand ROIs</h3>
-                <p>We build brands on ROI-focused strategies and measurable outcomes that drive real business impact. Great brands are built with purpose, not by luck.</p>
-              </div>
-              <div class="card">
-                <div class="icon">✅</div>
-                <h3>End-to-End Experience</h3>
-                <p>From product quality to seamless automation and supportive service, we ensure a smooth, customer-centric journey at every touchpoint.</p>
-              </div>
+        <div class="description">
+          Leverage the power of a winning e-commerce growth strategy with
+          <strong> AMZ Virtual Assistant!</strong>!<br /><br />
+          We combine our intelligent strategies with profitability opportunities
+          and new product solutions for brands of all niches. Our operational
+          excellence has equipped us with a creative hands-on approach to help
+          brands reach, expand, and dominate the e-Commerce ecosystem.
+        </div>
+        <button class="services-button">View All Services</button>
+      </div>
+
+      <!-- Right Section - Slider -->
+      <div class="slider-section-right">
+        <div class="slider-wrapper">
+          <div class="slide">
+            <div class="card">
+              <div class="icon">🏆</div>
+              <h3>Brand ROIs</h3>
+              <p>
+                We build brands on ROI-focused strategies and measurable
+                outcomes that drive real business impact. Great brands are built
+                with purpose, not by luck.
+              </p>
             </div>
-      
-            <div class="slide">
-              <div class="card">
-                <div class="icon">⏰</div>
-                <h3>Time Management</h3>
-                <p>We optimize time through smart planning and strategic decision-making. It’s all about purposeful use and focused execution.</p>
-              </div>
-              <div class="card">
-                <div class="icon">👨‍💼</div>
-                <h3>Support</h3>
-                <p>Our Lifetime Support Policy empowers your business with long-term guidance, driving success through simplicity, predictability, and unwavering reliability.</p>
-              </div>
+            <div class="card">
+              <div class="icon">✅</div>
+              <h3>End-to-End Experience</h3>
+              <p>
+                From product quality to seamless automation and supportive
+                service, we ensure a smooth, customer-centric journey at every
+                touchpoint.
+              </p>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="card">
+              <div class="icon">⏰</div>
+              <h3>Time Management</h3>
+              <p>
+                We optimize time through smart planning and strategic
+                decision-making. It’s all about purposeful use and focused
+                execution.
+              </p>
+            </div>
+            <div class="card">
+              <div class="icon">👨‍💼</div>
+              <h3>Support</h3>
+              <p>
+                Our Lifetime Support Policy empowers your business with
+                long-term guidance, driving success through simplicity,
+                predictability, and unwavering reliability.
+              </p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-
-
-  <section class="faqs">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-6">
-          <h2>Frequently Asked Questions</h2>
-          <div class="faq-img">
-            <img src="../assets/images/faq-amazon.jpg" alt="assets/images/faq-amazon.jpg" loading="lazy" decoding="async" />
+    <section class="faqs">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-img">
+              <img
+                src="../assets/images/faq-amazon.jpg"
+                alt="assets/images/faq-amazon.jpg"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="accordion">
-            <div class="accordion-item">
-              <button id="accordion-button-1" aria-expanded="true">
-                <span class="accordion-title">Why do I need e-commerce automation services?
-                </span>
-                <span class="icon" aria-hidden="true"></span>
-              </button>
-              <div class="accordion-content">
-                <p>
-                  Choosing e-commerce automation services allows you to put repetitive and
-                  time-consuming
-                  tasks on auto-pilot, getting more done in less time. For example, you can automate
-                  marketing and sales, order fulfillment and shipment, billing and payment, returns
-                  management, customer service operations, and more. This way you save finances and
-                  labor,
-                  increasing returns on investment.
-                </p>
+          <div class="col-md-6">
+            <div class="accordion">
+              <div class="accordion-item">
+                <button id="accordion-button-1" aria-expanded="true">
+                  <span class="accordion-title"
+                    >Why do I need e-commerce automation services?
+                  </span>
+                  <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    Choosing e-commerce automation services allows you to put
+                    repetitive and time-consuming tasks on auto-pilot, getting
+                    more done in less time. For example, you can automate
+                    marketing and sales, order fulfillment and shipment, billing
+                    and payment, returns management, customer service
+                    operations, and more. This way you save finances and labor,
+                    increasing returns on investment.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div class="accordion-item">
-              <button id="accordion-button-2" aria-expanded="false">
-                <span class="accordion-title">Will e-commerce automation services help me reduce errors
-                  and
-                  improve accuracy?</span>
-                <span class="icon" aria-hidden="true"></span>
-              </button>
-              <div class="accordion-content">
-                <p>
-                  E-commerce task automation prevents human errors keeping the team involved in
-                  significant tasks and improving overall operational efficiency and consistency
-                  leaving
-                  limited room for distractions and mistakes. This helps in achieving accuracy in data
-                  collection and analysis, faster communication, record keeping, and generating
-                  lucrative
-                  outcomes as a result.
-                </p>
+              <div class="accordion-item">
+                <button id="accordion-button-2" aria-expanded="false">
+                  <span class="accordion-title"
+                    >Will e-commerce automation services help me reduce errors
+                    and improve accuracy?</span
+                  >
+                  <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    E-commerce task automation prevents human errors keeping the
+                    team involved in significant tasks and improving overall
+                    operational efficiency and consistency leaving limited room
+                    for distractions and mistakes. This helps in achieving
+                    accuracy in data collection and analysis, faster
+                    communication, record keeping, and generating lucrative
+                    outcomes as a result.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div class="accordion-item">
-              <button id="accordion-button-3" aria-expanded="false">
-                <span class="accordion-title">What do I have to do?</span>
-                <span class="icon" aria-hidden="true"></span>
-              </button>
-              <div class="accordion-content">
-                <p>
-                  For our Automation services, you largely do nothing after the onboarding process. We
-                  ensure your store is set up and ready to be successfully automated whether it is
-                  brand
-                  new or an aged store transferred to our management team. We set up contracts with
-                  the
-                  nation’s top brands and get your inventory set up in 30-45 days during the
-                  onboarding
-                  process.
-                </p>
+              <div class="accordion-item">
+                <button id="accordion-button-3" aria-expanded="false">
+                  <span class="accordion-title">What do I have to do?</span>
+                  <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    For our Automation services, you largely do nothing after
+                    the onboarding process. We ensure your store is set up and
+                    ready to be successfully automated whether it is brand new
+                    or an aged store transferred to our management team. We set
+                    up contracts with the nation’s top brands and get your
+                    inventory set up in 30-45 days during the onboarding
+                    process.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div class="accordion-item">
-              <button id="accordion-button-4" aria-expanded="false">
-                <span class="accordion-title">How can I get started and partner with The AMZ
-                  eCom Hub?</span>
-                <span class="icon" aria-hidden="true"></span>
-              </button>
-              <div class="accordion-content">
-                <p>
-                  All you need to do is fill out the Form on our website to book a call with one of
-                  our
-                  team members. During the call, we will discuss your specific needs and how our
-                  services
-                  can help you achieve your business goals. Please come prepared with any questions
-                  about
-                  our services, processes, or how we can tailor our solutions to fit your unique
-                  situation. We're here to provide all the information you need to make an informed
-                  decision and to ensure that our partnership will be a successful one.
-                </p>
+              <div class="accordion-item">
+                <button id="accordion-button-4" aria-expanded="false">
+                  <span class="accordion-title"
+                    >How can I get started and partner with The AMZ eCom
+                    Hub?</span
+                  >
+                  <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    All you need to do is fill out the Form on our website to
+                    book a call with one of our team members. During the call,
+                    we will discuss your specific needs and how our services can
+                    help you achieve your business goals. Please come prepared
+                    with any questions about our services, processes, or how we
+                    can tailor our solutions to fit your unique situation. We're
+                    here to provide all the information you need to make an
+                    informed decision and to ensure that our partnership will be
+                    a successful one.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-   <footer class="footer">
+     <footer class="footer text-white">
       <div class="container" bis_skin_checked="1"></div>
       <div class="container">
         <div class="row bodr-top">
-          <div class="row align-items-center" bis_skin_checked="1">
+          <div
+            style="padding: 0px"
+            class="d-flex flex-wrap align-items-center justify-content-between"
+            bis_skin_checked="1"
+          >
             <div class="col-12 col-md-6" bis_skin_checked="1">
               <img
                 class="img-fluid ls-is-cached lazyloaded"
@@ -765,12 +1100,12 @@
                 title="Amazon Automations"
                 width="215"
                 height="53"
-                src="../assets/images/logooo-header.png"
+                src="assets/images/logooo-header.png"
               />
             </div>
             <div class="col-12 col-md-6" bis_skin_checked="1">
               <div
-                class="hstack gap-2 align-items-center justify-content-md-end justify-content-center"
+                class="d-flex gap-2 align-items-center justify-content-md-end justify-content-center"
                 bis_skin_checked="1"
               >
                 <a
@@ -778,12 +1113,12 @@
                   bis_size='{"x":862,"y":8730,"w":148,"h":73,"abs_x":862,"abs_y":8730}'
                   ><img
                     class="img-fluid lazyloaded"
-                    data-src="../assets/frontend/images/icon/trustpilot.webp"
+                    data-src="assets/frontend/images/icon/trustpilot.webp"
                     alt="Trustpilot"
                     title="Trustpilot"
                     width="148"
                     height="73"
-                    src="../assets/frontend/images/icon/trustpilot.webp"
+                    src="assets/frontend/images/icon/trustpilot.webp"
                     bis_size='{"x":862,"y":8730,"w":148,"h":73,"abs_x":862,"abs_y":8730}'
                     bis_id="bn_rg0r0iunb5rbkm12oxbx4u" /></a
                 ><a
@@ -796,19 +1131,20 @@
                     title="clutch"
                     width="128"
                     height="73"
-                    src="../assets/frontend/images/icon/clutch.webp"
+                    src="assets/frontend/images/icon/clutch.webp"
                     bis_size='{"x":1018,"y":8730,"w":128,"h":73,"abs_x":1018,"abs_y":8730}'
-                    bis_id="bn_9hqqprcrikikujjprimbk6" /></a><a
+                    bis_id="bn_9hqqprcrikikujjprimbk6" /></a
+                ><a
                   href=""
                   bis_size='{"x":1154.com/en/us/compa,"y":8730,"w":128,"h":73,"abs_x":1154,"abs_y":8730}'
                   ><img
                     class="img-fluid lazyloaded"
-                    data-src="../assets/frontend/images/icon/bark.webp"
+                    data-src="assets/frontend/images/icon/bark.webp"
                     alt="bark"
                     title="bark"
                     width="128"
                     height="73"
-                    src="../assets/frontend/images/icon/bark.webp"
+                    src="assets/frontend/images/icon/bark.webp"
                     bis_size='{"x":1154,"y":8730,"w":128,"h":73,"abs_x":1154,"abs_y":8730}'
                     bis_id="bn_on2kv64axvkmxqig7ply5l" /></a
                 ><a
@@ -821,7 +1157,7 @@
                     title="reviews io"
                     width="152"
                     height="73"
-                    src="../assets/frontend/images/icon/reviews-io.webp"
+                    src="assets/frontend/images/icon/reviews-io.webp"
                     bis_size='{"x":1290,"y":8730,"w":152,"h":73,"abs_x":1290,"abs_y":8730}'
                     bis_id="bn_17sjxoskqbovwowncr8zec"
                 /></a>
@@ -831,148 +1167,235 @@
         </div>
 
         <div class="row">
-          <div class="col-md-3">
-            <div class="logowrp">
-              <p style="margin-top: 0px;">
-                As a leading eCommerce automation company, AMZ Virtual Assistant
-                provides mid-sized and large-scale brands with robust and
-                thoughtfully designed eCommerce solutions.
-              </p>
-              <img
-                data-src="https://www.amazonautomations.com/assets/frontend/images/icon/payment-cards.webp"
-                alt="Payment Cards"
-                title="Payment Cards"
-                class="img-fluid d-block mb-4 lazyloaded"
-                width="257"
-                height="40"
-                src="https://www.amazonautomations.com/assets/frontend/images/icon/payment-cards.webp"
-              />
-            </div>
+          <!-- About Section -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <p class="small lh-base mb-4">
+              As a leading eCommerce automation company, AMZ Virtual Assistant
+              provides mid-sized and large-scale brands with robust and
+              thoughtfully designed eCommerce solutions.
+            </p>
+            <img
+              src="https://www.amazonautomations.com/assets/frontend/images/icon/payment-cards.webp"
+              alt="Payment Cards"
+              class="img-fluid opacity-75"
+            />
           </div>
-          <div class="col-md-2">
-            <div class="navwrp">
-              <h4 class="upr-heading">Quick Links</h4>
-              <ul>
-                <li><a href="../index.html" class="active">Home</a></li>
-                <li><a href="../about-us/index.html">About Us</a></li>
-                <li><a href="../testimonials/index.html">Testimonials</a></li>
-                <!-- <li><a href="/case-studies/">Case Studies</a></li> -->
-                <li><a href="../contact-us/contact-us.html">Contact US</a></li>
-              </ul>
-            </div>
+          <!-- Quick Links -->
+          <div class="col-lg-2 col-md-6 mb-4">
+            <h5
+              class="fw-bold text-uppercase mb-3 pb-2"
+              style="
+                border-width: 2px !important;
+                border-bottom: 2px solid #f90;
+              "
+            >
+              Quick Links
+            </h5>
+            <ul class="footer-links ps-0">
+              <li class="mb-2">
+                <a
+                  href="index.html"
+                  class="text-decoration-none text-white small"
+                  >▸ Home</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="about-us/index.html"
+                  class="text-decoration-none text-white small"
+                  >▸ About Us</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="testimonials/index.html"
+                  class="text-decoration-none text-white small"
+                  >▸ Testimonials</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="./contact-us/contact-us.html"
+                  class="text-decoration-none text-white small"
+                  >▸ Contact Us</a
+                >
+              </li>
+            </ul>
           </div>
-          <div class="col-md-2">
-            <div class="navwrp">
-              <h4 class="upr-heading">Services</h4>
-              <ul>
-                <li>
-                  <a href="../keyword-research/index.html">keyword Research</a>
-                </li>
-                <li>
-                  <a href="../product-hunting/index.html">Product Hunting</a>
-                </li>
-                <li>
-                  <a href="../ppc-management/index.html">PPC Management</a>
-                </li>
-                <li>
-                  <a href="../virtual-assistant/index.html">Virtual Assistant</a>
-                </li>
-                <li>
-                  <a href="../stores-optimization/index.html"
-                    >Stores Optimization</a
-                  >
-                </li>
-              </ul>
-            </div>
+          <!-- Services -->
+          <div class="col-lg-2 col-md-6 mb-4">
+            <h5
+              class="fw-bold text-uppercase mb-3 pb-2"
+              style="
+                border-width: 2px !important;
+                border-bottom: 2px solid #f90;
+              "
+            >
+              Services
+            </h5>
+            <ul class="footer-links ps-0">
+              <li class="mb-2">
+                <a
+                  href="keyword-research/index.html"
+                  class="text-decoration-none text-white small"
+                  >▸ Keyword Research</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="product-hunting/index.html"
+                  class="text-decoration-none text-white small"
+                  >▸ Product Hunting</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="ppc-management/index.html"
+                  class="text-decoration-none text-white small"
+                  >▸ PPC Management</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="virtual-assistant/index.html"
+                  class="text-decoration-none text-white small"
+                  >▸ Virtual Assistant</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="stores-optimization/index.html"
+                  class="text-decoration-none text-white small"
+                  >▸ Store Optimization</a
+                >
+              </li>
+            </ul>
           </div>
-          <div class="col-md-2">
-            <div class="navwrp">
-              <h4 class="upr-heading">Automation Services</h4>
-              <ul>
-                <li>
-                  <a href="../amazon-automation/index.html">Amazon Automation</a>
-                </li>
-                <li>
-                  <a href="../walmart-automation/index.html">Walmart Automation</a>
-                </li>
-                <li>
-                  <a href="../shopify-automation/index.html">Shopify Automation</a>
-                </li>
-                <li>
-                  <a href="../ebay-automation/index.html">eBay Automation</a>
-                </li>
-                <li>
-                  <a href="../etsy-automation/index.html">Etsy Automation</a>
-                </li>
-                <li>
-                  <a href="../tiktok-automation/index.html">TikTok Automation</a>
-                </li>
-              </ul>
+          <!-- Automation Platforms -->
+          <div class="col-lg-2 col-md-6 mb-4">
+            <h5
+              class="fw-bold text-uppercase mb-3 pb-2"
+              style="
+                border-width: 2px !important;
+                border-bottom: 2px solid #f90;
+              "
+            >
+              Automation
+            </h5>
+            <div class="automation-grid">
+              <a
+                href="amazon-automation/index.html"
+                class="btn btn-outline-light btn-sm mb-2 text-start"
+                >Amazon</a
+              >
+              <a
+                href="walmart-automation/index.html"
+                class="btn btn-outline-light btn-sm mb-2 text-start"
+                >Walmart</a
+              >
+              <a
+                href="shopify-automation/index.html"
+                class="btn btn-outline-light btn-sm mb-2 text-start"
+                >Shopify</a
+              >
+              <a
+                href="ebay-automation/index.html"
+                class="btn btn-outline-light btn-sm mb-2 text-start"
+                >eBay</a
+              >
+              <a
+                href="etsy-automation/index.html"
+                class="btn btn-outline-light btn-sm mb-2 text-start"
+                >Etsy</a
+              >
+              <a
+                href="tiktok-automation/index.html"
+                class="btn btn-outline-light btn-sm mb-2 text-start"
+                >TikTok</a
+              >
             </div>
           </div>
 
-          <div class="col-md-3">
-            <div class="navwrp">
-              <h4 class="upr-heading">
-                Reach Us:<a
-                  class="cont"
-                  href="mailto:info@amzvirtualassistant.com"
-                  ><i style="color: white" class="fa-solid fa-envelope"></i
-                ></a>
-              </h4>
-              <ul>
-                <li>
-                  <a class="cont" href="mailto:info@amzvirtualassistant.com"
-                    ><i class="fa-solid fa-envelope"></i
-                    >info@amzvirtualassistant.com
-                  </a>
-                </li>
-                <li>
-                  <a class="cont" href="tel:(408) 663-2488"
-                    ><i class="fa-solid fa-phone"></i> (408) 663-2488
-                  </a>
-                </li>
-                <li>
-                  <a class="cont" href="https://wa.me/7373632955"
-                    ><i class="fa-brands fa-square-whatsapp"></i> +1
-                    (737)-363-2955
-                  </a>
-                </li>
-                <!-- <li><a href="/case-studies/">Case Studies</a></li> -->
-                <li>
-                  <p style="color: white" class="cont">
-                    <i class="fa-solid fa-location-dot"></i> USA Address:</br> 9310 Metric Boulevard Austin, TX 78758
-                  </p>
-                </li>
-              </ul>
-              <ul style="display: flex; gap: 10px; margin-top: 0px">
-                <li>
-                  <a
-                    href="../www.facebook.com/amzvirtualassistant.html"
-                    target="_blank"
-                  >
-                    <i class="fa-brands fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="../instagram.com/amzvirtualassistant/index.html"
-                    target="_blank"
-                  >
-                    <i class="fa-brands fa-instagram"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i class="fa-brands fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
+          <!-- Contact Information -->
+
+          <div class="col-lg-3 col-md-12 mb-4">
+            <h5
+              class="fw-bold text-uppercase mb-3 pb-2"
+              style="
+                border-width: 2px !important;
+                border-bottom: 2px solid #f90;
+              "
+            >
+              Get In Touch
+            </h5>
+
+            <div class="d-flex align-items-start mb-3 bg-opacity-25 rounded">
+              <i class="fas fa-envelope me-3 mt-1"></i>
+              <a
+                href="mailto:info@amzvirtualassistant.com"
+                class="text-white text-decoration-none small"
+                >info@amzvirtualassistant.com</a
+              >
+            </div>
+
+            <div class="d-flex align-items-start mb-3 bg-opacity-25 rounded">
+              <i class="fas fa-phone me-3 mt-1"></i>
+              <a
+                href="tel:(408) 663-2488"
+                class="text-white text-decoration-none small"
+                >(408) 663-2488</a
+              >
+            </div>
+
+            <div class="d-flex align-items-start mb-3 bg-opacity-25 rounded">
+              <i class="fab fa-whatsapp me-3 mt-1"></i>
+              <a
+                href="https://wa.me/7373632955"
+                class="text-white text-decoration-none small"
+                >+1 (737)-363-2955</a
+              >
+            </div>
+
+            <div class="d-flex align-items-start mb-3 bg-opacity-25 rounded">
+              <i class="fas fa-map-marker-alt me-3 mt-1"></i>
+              <span class="text-white small">
+                9310 Metric Boulevard<br />Austin, TX 78758, USA
+              </span>
+            </div>
+
+            <div class="d-flex gap-2 mt-4">
+              <a
+                href="https://www.facebook.com/amzvirtualassistant"
+                target="_blank"
+                class="btn btn-sm p-2"
+              >
+                <i
+                  style="color: white; font-size: 20px"
+                  class="fa-brands fa-facebook-f"
+                ></i>
+              </a>
+              <a
+                href="https://instagram.com/amzvirtualassistant/"
+                target="_blank"
+                class="btn btn-sm p-2"
+              >
+                <i
+                  style="color: white; font-size: 20px"
+                  class="fab fa-instagram"
+                ></i>
+              </a>
+              <a href="#" target="_blank" class="btn btn-sm p-2">
+                <i
+                  style="color: white; font-size: 20px"
+                  class="fab fa-twitter"
+                ></i>
+              </a>
+              <a href="#" target="_blank" class="btn btn-sm p-2">
+                <i
+                  style="color: white; font-size: 20px"
+                  class="fab fa-linkedin-in"
+                ></i>
+              </a>
             </div>
           </div>
         </div>
@@ -980,13 +1403,13 @@
       <div class="ftr-btm">
         <div class="container">
           <div class="row" style="align-items: center">
-            <div class="col-md-4">
+            <div class="col">
               <div class="txtdiv">
                 <p>© Copyright AMZ Virtual Assistant. All Rights Reserved</p>
                 <!--<p style="font-size: 14px;">Powered By: Pixtel Services inc</p>-->
               </div>
             </div>
-            <div class="col-md-4 my-auto">
+            <!-- <div class="col-md-4 my-auto">
               <div class="txtdiv">
                 <ul>
                   <li>
@@ -1017,7 +1440,7 @@
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> -->
             <div class="col-md-4">
               <div class="txtwrp">
                 <ul>
@@ -1058,304 +1481,312 @@
       </div>
     </footer>
 
-     <!-- Slick Carousel and jQuery -->
-     <script src="../../code.jquery.com/jquery-3.6.0.min.js"></script>
-     <script src="../../cdn.jsdelivr.net/npm/slick-carousel%401.8.1/slick/slick.min.js"></script>
-   
-     <script>
-       const sliderWrapper = document.querySelector('.slider-wrapper');
-       let currentIndex = 0;
-       const totalSlides = 2; // Number of .slide divs
-     
-       function autoSlide() {
-         currentIndex = (currentIndex + 1) % totalSlides;
-         sliderWrapper.style.transform = `translateX(-${currentIndex * 50}%)`;
-       }
-     
-       setInterval(autoSlide, 3000); // Change every 3 seconds
-     </script>
+    <!-- Slick Carousel and jQuery -->
+    <script src="../../code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../../cdn.jsdelivr.net/npm/slick-carousel%401.8.1/slick/slick.min.js"></script>
 
+    <script>
+      const sliderWrapper = document.querySelector(".slider-wrapper");
+      let currentIndex = 0;
+      const totalSlides = 2; // Number of .slide divs
 
-  <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+      function autoSlide() {
+        currentIndex = (currentIndex + 1) % totalSlides;
+        sliderWrapper.style.transform = `translateX(-${currentIndex * 50}%)`;
+      }
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      setInterval(autoSlide, 3000); // Change every 3 seconds
+    </script>
+
+    <script
+      data-cfasync="false"
+      src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
     ></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
-    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     ></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-  <script type="text/javascript" src="../slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
-  <script>
-    $('.count').each(function () {
-      $(this).prop('Counter', 0).animate({
-        Counter: $(this).text()
-      }, {
-        duration: 4000,
-        easing: 'swing',
-        step: function (now) {
-          $(this).text(Math.ceil(now));
-        }
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script type="text/javascript" src="../slick/slick.min.js"></script>
+
+    <script>
+      $(".count").each(function () {
+        $(this)
+          .prop("Counter", 0)
+          .animate(
+            {
+              Counter: $(this).text(),
+            },
+            {
+              duration: 4000,
+              easing: "swing",
+              step: function (now) {
+                $(this).text(Math.ceil(now));
+              },
+            }
+          );
       });
-    });
-  </script>
-  <script>
-    const items = document.querySelectorAll('.accordion button');
+    </script>
+    <script>
+      const items = document.querySelectorAll(".accordion button");
 
-    function toggleAccordion() {
-      const itemToggle = this.getAttribute('aria-expanded');
-      for (i = 0; i < items.length; i++) {
-        items[i].setAttribute('aria-expanded', 'false');
+      function toggleAccordion() {
+        const itemToggle = this.getAttribute("aria-expanded");
+        for (i = 0; i < items.length; i++) {
+          items[i].setAttribute("aria-expanded", "false");
+        }
+        if (itemToggle == "false") {
+          this.setAttribute("aria-expanded", "true");
+        }
       }
-      if (itemToggle == 'false') {
-        this.setAttribute('aria-expanded', 'true');
-      }
-    }
-    items.forEach((item) => item.addEventListener('click', toggleAccordion));
-  </script>
-  <script>
-    $('.portslider').slick({
-      slidesToShow: 7,
-      slidesToScroll: 1,
-      autoplay: true,
-      // autoplaySpeed: 3000,
-      arrows: false,
-      dots: false,
-      pauseOnHover: false,
-      responsive: [{
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 3
-        }
-      }, {
-        breakpoint: 520,
-        settings: {
-          slidesToShow: 2
-        }
-      }]
-    });
-  </script>
-  <script>
-    $('.portfolio-slider').slick({
-      slidesToShow: 5,
-      slidesToScroll: 1,
-      autoplay: true,
-      // autoplaySpeed: 3000,
-      arrows: false,
-      dots: false,
-      pauseOnHover: false,
-      responsive: [{
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 3
-        }
-      }, {
-        breakpoint: 520,
-        settings: {
-          slidesToShow: 1
-        }
-      }]
-    });
-  </script>
-  <script>
-    $('.testi-slider').slick({
-      slidesToShow: 2,
-      slidesToScroll: 1,
-      autoplay: true,
-      // autoplaySpeed: 3000,
-      arrows: false,
-      dots: false,
-      pauseOnHover: false,
-      responsive: [{
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 3
-        }
-      }, {
-        breakpoint: 520,
-        settings: {
-          slidesToShow: 1
-        }
-      }]
-    });
-  </script>
-  <script>
-    if (window.innerWidth < 767) {
-      $('.mobile-slider').slick({
-        dots: true,
-        arrows: false,
-        infinite: true,
-        speed: 300,
+      items.forEach((item) => item.addEventListener("click", toggleAccordion));
+    </script>
+    <script>
+      $(".portslider").slick({
+        slidesToShow: 7,
+        slidesToScroll: 1,
         autoplay: true,
+        // autoplaySpeed: 3000,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 3,
+            },
+          },
+          {
+            breakpoint: 520,
+            settings: {
+              slidesToShow: 2,
+            },
+          },
+        ],
+      });
+    </script>
+    <script>
+      $(".portfolio-slider").slick({
         slidesToShow: 5,
         slidesToScroll: 1,
-        responsive: [{
-          breakpoint: 1399,
-          settings: {
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: false
-          }
-        }, {
-          breakpoint: 1200,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: false
-          }
-        },
-        {
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            dots: false
-
-          }
-        },
-        {
-          breakpoint: 767,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            dots: false
-
-          }
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            dots: false
-
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            dots: false
-          }
-        }
-          // You can unslick at a given breakpoint now by adding:
-          // settings: "unslick"
-          // instead of a settings object
-        ]
+        autoplay: true,
+        // autoplaySpeed: 3000,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 3,
+            },
+          },
+          {
+            breakpoint: 520,
+            settings: {
+              slidesToShow: 1,
+            },
+          },
+        ],
       });
-    }
-  </script>
-  <script>
-    jQuery(document).ready(function ($) {
-      if ($(this).scrollTop() >= 15) {
-        $('.header-main').addClass('sticky');
-      } else {
-        $('.header-main').removeClass('sticky');
+    </script>
+    <script>
+      $(".testi-slider").slick({
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+        // autoplaySpeed: 3000,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 3,
+            },
+          },
+          {
+            breakpoint: 520,
+            settings: {
+              slidesToShow: 1,
+            },
+          },
+        ],
+      });
+    </script>
+    <script>
+      if (window.innerWidth < 767) {
+        $(".mobile-slider").slick({
+          dots: true,
+          arrows: false,
+          infinite: true,
+          speed: 300,
+          autoplay: true,
+          slidesToShow: 5,
+          slidesToScroll: 1,
+          responsive: [
+            {
+              breakpoint: 1399,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false,
+              },
+            },
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false,
+              },
+            },
+            {
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: false,
+              },
+            },
+            {
+              breakpoint: 767,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: false,
+              },
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: false,
+              },
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: false,
+              },
+            },
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+          ],
+        });
       }
-      $(window).scroll(function () {
+    </script>
+    <script>
+      jQuery(document).ready(function ($) {
         if ($(this).scrollTop() >= 15) {
-          $('.header-main').addClass('sticky');
+          $(".header-main").addClass("sticky");
         } else {
-          $('.header-main').removeClass('sticky');
+          $(".header-main").removeClass("sticky");
         }
-      });
-    });
-  </script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      // Sabhi links ko select karein
-      const links = document.querySelectorAll('.nav-item a');
-
-      // Sabhi links par click event listener add karein
-      links.forEach(link => {
-        link.addEventListener('click', function () {
-          // Sabhi links se active class ko remove karein
-          links.forEach(link => link.classList.remove('active-link'));
-
-          // Click kiya gaya link par active class add karein
-          this.classList.add('active-link');
+        $(window).scroll(function () {
+          if ($(this).scrollTop() >= 15) {
+            $(".header-main").addClass("sticky");
+          } else {
+            $(".header-main").removeClass("sticky");
+          }
         });
       });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Sabhi links ko select karein
+        const links = document.querySelectorAll(".nav-item a");
 
-      // Page load hone par current URL ke hisaab se active class set karein
-      const currentUrl = window.location.href;
-      links.forEach(link => {
-        if (link.href === currentUrl) {
-          link.classList.add('active-link');
-        }
+        // Sabhi links par click event listener add karein
+        links.forEach((link) => {
+          link.addEventListener("click", function () {
+            // Sabhi links se active class ko remove karein
+            links.forEach((link) => link.classList.remove("active-link"));
+
+            // Click kiya gaya link par active class add karein
+            this.classList.add("active-link");
+          });
+        });
+
+        // Page load hone par current URL ke hisaab se active class set karein
+        const currentUrl = window.location.href;
+        links.forEach((link) => {
+          if (link.href === currentUrl) {
+            link.classList.add("active-link");
+          }
+        });
       });
-    });
-  </script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": " AMZ virtual Assistant",
-    "image": "https://amzvirtualassistant.com/assets/images/logooo-header.png",
-    "@id": "https://g.co/kgs/UP9uQKk",
-    "url": "https://amzvirtualassistant.com/",
-    "telephone": "(737) 363-2955",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "763 E 149th St Unit 104",
-      "addressLocality": "Bronx",
-      "addressRegion": "NY",
-      "postalCode": "10455",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 40.8131219,
-      "longitude": -73.9077673
-    },
-    "sameAs": [
-      "https://www.facebook.com/amzfounders",
-      "../www.instagram.com/amzfounders/index-2.html",
-      "../www.linkedin.com/company/amz-founder.html",
-      "../index.html"
-    ]
-  }
-</script>
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": " AMZ virtual Assistant",
+        "image": "https://amzvirtualassistant.com/assets/images/logooo-header.png",
+        "@id": "https://g.co/kgs/UP9uQKk",
+        "url": "https://amzvirtualassistant.com/",
+        "telephone": "(737) 363-2955",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "763 E 149th St Unit 104",
+          "addressLocality": "Bronx",
+          "addressRegion": "NY",
+          "postalCode": "10455",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 40.8131219,
+          "longitude": -73.9077673
+        },
+        "sameAs": [
+          "https://www.facebook.com/amzfounders",
+          "../www.instagram.com/amzfounders/index-2.html",
+          "../www.linkedin.com/company/amz-founder.html",
+          "../index.html"
+        ]
+      }
+    </script>
 
+    <!-- Tawk.to Live Chat Script -->
+    <script>
+      let tawkLoaded = false;
+      function loadTawk() {
+        if (tawkLoaded) return;
+        var Tawk_API = Tawk_API || {},
+          Tawk_LoadStart = new Date();
+        var s1 = document.createElement("script");
+        s1.src = "https://embed.tawk.to/679a8b8d825083258e0d3c6a/1iipr28d3";
+        s1.async = true;
+        s1.charset = "UTF-8";
+        s1.setAttribute("crossorigin", "*");
+        document.body.appendChild(s1);
+        tawkLoaded = true;
+        window.removeEventListener("scroll", loadTawk);
+      }
+      window.addEventListener("scroll", loadTawk);
+    </script>
 
+    <!-- WhatsApp Floating Button -->
+  </body>
 
-<!-- Tawk.to Live Chat Script -->
-<script>
-  let tawkLoaded = false;
-  function loadTawk() {
-    if (tawkLoaded) return;
-    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-    var s1 = document.createElement("script");
-    s1.src = "https://embed.tawk.to/679a8b8d825083258e0d3c6a/1iipr28d3";
-    s1.async = true;
-    s1.charset = "UTF-8";
-    s1.setAttribute("crossorigin", "*");
-    document.body.appendChild(s1);
-    tawkLoaded = true;
-    window.removeEventListener("scroll", loadTawk);
-  }
-  window.addEventListener("scroll", loadTawk);
-</script>
-
-
-  <!-- WhatsApp Floating Button -->
-  
-  
-
-</body>
-
-
-
-<!-- Mirrored from amzvirtualassistant.com/testimonials/ , Fri, 20 Jun 2025 14:41:08 GMT -->
+  <!-- Mirrored from amzvirtualassistant.com/testimonials/ , Fri, 20 Jun 2025 14:41:08 GMT -->
 </html>
